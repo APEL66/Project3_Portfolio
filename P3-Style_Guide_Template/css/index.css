@@ -141,7 +141,7 @@
 .software_pad {
   width: 50%;
   background-color: transparent;
-  border: 2px solid #499BDF;
+  border: 2px solid #499bdf;
   margin-left: 40%;
   margin-top: 15%;
 }
@@ -149,7 +149,7 @@
 .software_pad h4 {
   margin-top: 2rem;
   text-align: center;
-  color: #FFF500;
+  color: #fff500;
 }
 
 .job_title img {
@@ -160,7 +160,7 @@
   width: 35%;
   margin-left: 10%;
   margin-top: -1.5rem;
-  border: 2px solid #FFF500;
+  border: 2px solid #fff500;
 }
 
 .int_positions {
@@ -200,13 +200,13 @@
   Recent Works SECTION Start -------------------
 */
 #recent_works h2 {
-  margin: 5rem 0 0 0; 
+  margin: 5rem 0 0 0;
   font-size: 3.8rem;
-  color:#499bdf;
+  color: #499bdf;
 }
 
 .slideshow-container {
-  width:80%;
+  width: 80%;
   /* border:solid red 1px; */
   background-color: black;
   position: relative;
@@ -300,13 +300,13 @@
 */
 #project_analysis {
   background-color: #000000;
-  margin:5rem 0;
+  margin: 5rem 0;
 }
 
 #project_analysis h2 {
   margin: 0;
   font-size: 3.8rem;
-  color:#499bdf;
+  color: #499bdf;
 }
 
 #project_analysis span {
@@ -418,7 +418,7 @@
   .software_pad {
     width: 60%;
     background-color: transparent;
-    border: 2px solid #499BDF;
+    border: 2px solid #499bdf;
     margin-left: 32%;
     margin-top: 10%;
   }
@@ -427,7 +427,7 @@
     width: 40%;
     margin-left: 8%;
     margin-top: -1.5rem;
-    border: 2px solid #FFF500;
+    border: 2px solid #fff500;
   }
 
   #about_me h2 {

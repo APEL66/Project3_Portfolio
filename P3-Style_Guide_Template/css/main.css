@@ -3,16 +3,16 @@
   Default styling for the style guide 
 */
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   background-color: #000000;
-  margin: 0!important;
+  margin: 0 !important;
 }
 
 * {
   box-sizing: border-box;
 }
 
-section{
+section {
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -21,7 +21,7 @@ section{
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: dotted;
-  border-top-color: #FFF500;
+  border-top-color: #fff500;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 
 h1 {
   font-size: 5rem;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   padding-bottom: 1rem;
   text-align: center;
   /* -webkit-text-stroke: 0.1px #499BDF; */
@@ -40,18 +40,18 @@ h1 {
 h2 {
   margin-top: 5rem;
   font-size: 2rem;
-  color: #FFF500;
+  color: #fff500;
 }
 
 h3 {
   font-style: italic;
   margin-top: 1rem;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 h4 {
   margin-bottom: 0.2rem;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 h5 {
@@ -74,7 +74,7 @@ p {
   font-size: 1rem;
   margin-top: 0;
   text-align: justify;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 li {
@@ -82,8 +82,9 @@ li {
   color: white;
 }
 
-nav a:hover, nav a:focus {
-  color: rgba(255,255,255,0.2);
+nav a:hover,
+nav a:focus {
+  color: rgba(255, 255, 255, 0.2);
   transition: 0.81s;
 }
 
@@ -93,18 +94,18 @@ nav a:hover, nav a:focus {
   padding: 1.2rem 2rem;
   padding-bottom: 0;
   margin-top: 2rem;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   max-height: 20rem;
-  overflow:auto;
+  overflow: auto;
 }
 
-.main_nav{
+.main_nav {
   color: white;
   padding: 1rem;
 }
 
-.main_nav:hover{
-  color: #499BDF;
+.main_nav:hover {
+  color: #499bdf;
   transition: 0.5s;
 }
 
@@ -117,28 +118,29 @@ nav a:hover, nav a:focus {
   display: inline-block;
   padding: 0.5rem;
   color: white;
-  background-color: rgb(50,50,50);
+  background-color: rgb(50, 50, 50);
   text-decoration: none;
-  transition-property: background-color; 
+  transition-property: background-color;
   transition-duration: 0.5s;
 }
 
-.button-nav:hover, .button-nav:focus {
-  background-color: #FFCAB1;
+.button-nav:hover,
+.button-nav:focus {
+  background-color: #ffcab1;
 }
 
-button:hover{
-  color: #FFF500;
-  border-color: #FFF500;
+button:hover {
+  color: #fff500;
+  border-color: #fff500;
   transition: 0.7s;
 }
 
-button:focus{
-  background-color: #F7ECE7;
+button:focus {
+  background-color: #f7ece7;
 }
 
-button{
-  color: rgba(255,255,255,0.9);
+button {
+  color: rgba(255, 255, 255, 0.9);
   background-color: transparent;
   padding: 0.5rem;
   text-decoration: none;
@@ -150,14 +152,15 @@ button{
 
   border-width: 2px;
   border-style: solid;
-  border-color: rgba(255,255,255,0.9);
+  border-color: rgba(255, 255, 255, 0.9);
 }
 
-input:hover, input:focus{
-  background-color: #FFFEF4;
+input:hover,
+input:focus {
+  background-color: #fffef4;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 100%;
   margin-bottom: 1rem;
   padding: 0.8rem;
@@ -171,7 +174,7 @@ label {
   color: white;
 }
 
-.top{
+.top {
   display: flex;
   width: 100%;
   position: relative;
@@ -181,7 +184,7 @@ label {
 }
 
 .top-nav {
-  color: #FFF500;
+  color: #fff500;
   background-color: transparent;
   padding: 0.8rem;
   text-decoration: none;
@@ -190,27 +193,29 @@ label {
   border-radius: 2em;
   align-items: stretch;
 
-  border: dashed 2px #FFF500;
+  border: dashed 2px #fff500;
 }
 
-.top-nav:hover{
-  color: #499BDF;
+.top-nav:hover {
+  color: #499bdf;
   transition: 0.5s;
 }
 
-.phone_menu{
+.phone_menu {
   display: none;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 20px;
   height: 2px;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   margin: 5px 0;
   transition: 0.4s;
 }
 
-.fa_icons{
+.fa_icons {
   display: flex;
   width: 40%;
   justify-content: space-between;
@@ -219,26 +224,26 @@ label {
 }
 
 .fa {
-  font-size: 2rem!important;
+  font-size: 2rem !important;
   margin-bottom: 3rem;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
-.fa:hover{
+.fa:hover {
   transform: scale(1.4);
 }
 
-.intext-link{
+.intext-link {
   text-decoration: none;
 }
 
-.intext-link:hover{
-  color: #FFF500;
+.intext-link:hover {
+  color: #fff500;
   transition: 0.81s;
 }
 
 .pj_analysis_p {
-  width:50%;
+  width: 50%;
 }
 
 .intro {
@@ -247,64 +252,65 @@ label {
   margin-right: 5%;
 }
 
-.square_pad_sg{
+.square_pad_sg {
   width: 50%;
-  background-color: rgba(255,255,255,0.25);
+  background-color: rgba(255, 255, 255, 0.25);
   margin-top: 1rem;
   animation: zoom 3s ease-in-out infinite alternate;
 }
 
 @keyframes zoom {
-  0%, 100%{
+  0%,
+  100% {
     transform: scale(1);
   }
 
-  50%{
+  50% {
     transform: scale(1.1);
   }
 }
 
-.square_pad_text_sg{
+.square_pad_text_sg {
   color: white;
   padding: 3rem;
 }
 
-.experience_pad_sg{
+.experience_pad_sg {
   width: 35%;
   margin-top: 1rem;
-  border: 2px solid #499BDF;
+  border: 2px solid #499bdf;
 }
 
-.job_title_sg img{
+.job_title_sg img {
   max-width: 32px;
 }
 
-.int_positions_sg{
+.int_positions_sg {
   padding: 2rem;
 }
 
-.int_positions_sg h4{
+.int_positions_sg h4 {
   margin-top: 0;
   margin-bottom: 2rem;
   text-align: center;
-  color: #FFF500;
+  color: #fff500;
 }
 
 /* Contact Me Section */
-#contact{
+#contact {
   background-color: #000000;
   margin: 0;
 }
 
-.footer h1{
+.footer h1 {
   font-size: 2rem;
 }
 
-.footer{
+.footer {
   padding-top: 1rem;
 }
 
-.my_info{
+.my_info {
   display: flex;
   justify-content: space-evenly;
   margin-left: 7%;
@@ -312,50 +318,49 @@ label {
   margin-bottom: 2rem;
 }
 
-.my_info2{
+.my_info2 {
   display: none;
 }
 
-.my_info3{
+.my_info3 {
   display: none;
 }
 
-.contact_place{
+.contact_place {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 25%;
 }
 
-
-.contact_place h4{
+.contact_place h4 {
   margin-left: 1rem;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.contact_place img{
+.contact_place img {
   max-width: 40px;
   max-height: 40px;
   vertical-align: middle;
 }
 
-.copyright{
+.copyright {
   margin: 0 5%;
 }
 
-.copyright p{
+.copyright p {
   text-align: center;
 }
 
-.copyright a{
-  text-decoration:underline;
+.copyright a {
+  text-decoration: underline;
 }
 
-.copyright a:hover{
-  color:#FFF500;
+.copyright a:hover {
+  color: #fff500;
 }
 
-#citations{
+#citations {
   margin-bottom: 3rem;
 }
