@@ -161,15 +161,6 @@
   margin-right: 18%;
 }
 
-.empty_h2 h2 {
-  -webkit-text-stroke: 2px #499bdf;
-  -webkit-text-fill-color: transparent;
-}
-
-.solid_h2 {
-  margin-bottom: 12%;
-  margin-top: -12rem;
-}
 
 /*
   About Me SECTION End -------------------
@@ -286,11 +277,6 @@
   margin: 0;
   font-size: 3.8rem;
   color: #499bdf;
-}
-
-#project_analysis span {
-  -webkit-text-stroke: 2px #499bdf;
-  -webkit-text-fill-color: transparent;
 }
 
 .el_pj_img {
@@ -627,20 +613,24 @@
 
   .info_pads2 > .software_pad {
     margin-top: 1rem;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .softwares{
-    padding: auto;
+    padding: 2%;
   }
 
   .softwares > .software_list {
-    width: 90%;
-    margin: 1%;
+    width: 100%;
+    /* margin: 1%; */
+    margin-left: 5%;
+    padding:0;
     /* border:solid red 1px; */
   }
 
   .int_positions{
-    padding:auto;
+    padding:2%;
   }
 
   .int_positions > .software_list {
