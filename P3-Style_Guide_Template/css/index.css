@@ -93,41 +93,9 @@
   display: flex;
 }
 
-.pic_info {
-  width: 40%;
-}
-
-.pic_me {
-  max-width: 50%;
-  margin-left: 5%;
-}
-
-.pic_note {
-  width: 10%;
-  background-color: rgba(255, 255, 255, 0.2);
-  text-align: right;
-}
-
-.pic_note_text {
-  color: white;
-  padding: 1rem;
-}
-
 .softwares {
   display: flex;
   padding: 2rem;
-}
-
-.my_skills {
-  width: 50%;
-}
-
-.my_skills img {
-  max-width: 25px;
-}
-
-.my_skills h4 {
-  margin-bottom: 2rem;
 }
 
 .software_list {
@@ -140,11 +108,11 @@
 }
 
 .software_pad {
-  width: 50%;
+  width: 40%;
   background-color: transparent;
   border: 2px solid #499bdf;
-  margin-left: 40%;
-  margin-top: 15%;
+  margin-left: 30%;
+  margin-top: -1.5%;
 }
 
 .software_pad h4 {
@@ -153,24 +121,34 @@
   color: #fff500;
 }
 
-.job_title img {
-  max-width: 32px;
+.job_title i {
+  color:white;
+  /* width:10%; */
+  padding-right: 5%;
+}
+
+.experience_pad2 {
+  width: 30%;
+  margin-left: 60%;
+  margin-top: 5rem;
+  border: 2px solid #fff500;
 }
 
 .experience_pad {
-  width: 35%;
+  width: 30%;
   margin-left: 10%;
   margin-top: -1.5rem;
   border: 2px solid #fff500;
 }
 
 .int_positions {
+  display:flex;
   padding: 2rem;
 }
 
-.int_positions h4 {
-  margin-top: 0;
-  margin-bottom: 2rem;
+.experience_pad h4,  .experience_pad2 h4{
+  /* margin-top: 0; */
+  margin-top: 2rem;
   text-align: center;
   color: #499bdf;
 }
@@ -421,13 +399,19 @@
     background-color: transparent;
     border: 2px solid #499bdf;
     margin-left: 32%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
   }
 
   .experience_pad {
     width: 40%;
     margin-left: 8%;
     margin-top: -1.5rem;
+    border: 2px solid #fff500;
+  }
+
+  .experience_pad2 {
+    width: 40%;
+    /* margin-left: 8%; */
     border: 2px solid #fff500;
   }
 
@@ -466,11 +450,19 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10%;
+    margin-top: -1.2%;
   }
 
   .experience_pad {
+    width: 90%;
+    margin-left: 5%;
     margin-top: -1.2rem;
+  }
+
+  .experience_pad2 {
+    width: 90%;
+    margin-left: 5%;
+    /* margin-top: -1.2rem; */
   }
 
   .software_list {
@@ -613,6 +605,16 @@
   .info_pads2 > .experience_pad {
     width: 90%;
     margin-left: 5%;
+    margin-top: 1rem;
+  }
+
+  .info_pads2 > .experience_pad2 {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1rem;
+  }
+
+  .info_pads2 > .software_pad {
     margin-top: 1rem;
   }
 
