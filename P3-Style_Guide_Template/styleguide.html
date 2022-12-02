@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P03 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <script src="JS/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <header>
+      <h1>P03 - Style Guide Template</h1>
+
+      <nav class="top">
+        <a href="#interactive_elements" class="top-nav">Interactive Elements</a>
+        <a href="#text_elements" class="top-nav">Text Elements</a>
+        <a href="#combined_elements" class="top-nav">Combined Elements</a>
+        <a href="#process_analysis_1" class="top-nav"
+          >Process Analysis 1</a
+        >
+        <a href="#process_analysis_2" class="top-nav">Process Analysis 2</a>
+        <a href="#citations" class="top-nav">Citations</a>
+      </nav>
+    </header>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+          <code>
+             &lt;a href="#" class='intext-link'&gt;This is an intext-link.&lt;/a&gt;
+          </code>
+        </pre>
+
+        <h4>Rendered element:</h4>
+        <a href="#" class="intext-link">This is an intext-link.</a>
+      </section>
+
+      <!-- Default Button styling section -->
+      <section class="element">
+        <h3>Navigation Link</h3>
+
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+          <code>
+            &lt;a class="main_nav" href="#" &gt;Link 1&lt;/a&gt;
+            &lt;a class="main_nav" href="#" &gt;Link 2&lt;/a&gt;
+          </code>
+        </pre>
+
+        <h4>Rendered element:</h4>
+        <a class="main_nav" href="#">Link 1</a>
+        <a class="main_nav" href="#">Link 2</a>
+      </section>
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+          <code>
+            &lt;form&gt;
+            &lt;button type=submit &gt;submit&lt;/button&gt;
+            &lt;button type=reset &gt;reset&lt;/button&gt;
+            &lt;/form&gt;
+          </code>
+        </pre>
+
+        <h4>Rendered element:</h4>
+        <form>
+          <button type="submit">submit</button>
+          <button type="reset">reset</button>
+        </form>
+      </section>
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+        <code
+          >&lt;label&gt;Leave Your Email: &lt;/lable&gt; &lt;input type="text"
+          value=""/&gt;</code
+        >
+      </pre>
+
+        <h4>Rendered element:</h4>
+        <label id="inputLabel"> Leave Your Email: </label
+        ><input type="text" value="" />
+      </section>
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <h4>Sample code:</h4>
+
+        <pre class="code_block">
+        <code>
+          &lt;div class="pj_analysis_p"&gt;
+            &lt;a href="p2.html"&gt;&lt;img src="img/sc4u.jpg" class="hp_pj_img" alt="Project 2."&gt;&lt;/a&gt;
+          &lt;/div&gt;
+        </code>
+      </pre>
+
+        <div class="pj_analysis_p">
+          <a href="p2.html"
+            ><img src="img/sc4u.jpg" class="hp_pj_img" alt="Project 2."
+          /></a>
+        </div>
+      </section>
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h4>Sample code:</h4>
+
+        <pre class="code_block">
+        <code>
+          &lt;h1&gt;This is Heading 1&lt;/h1&gt;
+          &lt;h2&gt;This is Heading 2&lt;/h2&gt;
+          &lt;h3&gt;This is Heading 3&lt;/h3&gt;
+          &lt;h4&gt;This is Heading 4&lt;/h4&gt;
+        </code>
+      </pre>
+
+        <h4>Rendered element:</h4>
+        <h1>This is Heading 1</h1>
+        <h2>This is Heading 2</h2>
+        <h3>This is Heading 3</h3>
+        <h4>This is Heading 4</h4>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+        <code>&lt;p&gt;My name is Yixuan Liu and you can just call me Eric. I am a
+          fourth-year student majoring in Interactive Arts & Technology at
+          SFU. I hope that my interest and passion for UX design will lead to
+          better designs that bring convenience and better experiences to
+          users in their daily lives. Therefore, user surveys and feedback, as
+          well as data analysis, are important to me because they provide
+          accurate direction for design, which I believe is the most important
+          step in user-centered design. I can apply my skills in Adobe
+          Photoshop, Illustrator, After Effects, Figma, and Final Cut to help
+          me to complete the design to the satisfaction of users.&lt;p&gt;</code>
+      </pre>
+
+        <h4>Rendered element:</h4>
+        <div class="intro">
+          <p>
+            My name is Yixuan Liu and you can just call me Eric. I am a
+            fourth-year student majoring in Interactive Arts & Technology at
+            SFU. I hope that my interest and passion for UX design will lead to
+            better designs that bring convenience and better experiences to
+            users in their daily lives. Therefore, user surveys and feedback, as
+            well as data analysis, are important to me because they provide
+            accurate direction for design, which I believe is the most important
+            step in user-centered design. I can apply my skills in Adobe
+            Photoshop, Illustrator, After Effects, Figma, and Final Cut to help
+            me to complete the design to the satisfaction of users.
+          </p>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+        <code>
+          &lt;ol id="softwares"&gt;
+            &lt;li&gt;Figma.&lt;/li&gt;
+            &lt;li&gt;Adobe Photoshop.&lt;/li&gt;
+            &lt;li&gt;Adobe Illustrator.&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+      </pre>
+
+        <h4>Rendered element:</h4>
+        <ol id="softwares">
+          <li>Figma.</li>
+          <li>Adobe Photoshop.</li>
+          <li>Adobe Illustrator.</li>
+        </ol>
+      </section>
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+        <code>
+          &lt;a href="#" class="main_nav"&gt;About Me&lt;/a&gt;
+          &lt;a href="#" class="main_nav"&gt;My Works&lt;/a&gt;
+          &lt;a href="#" class="main_nav"&gt;Contact Me&lt;/a&gt;
+        </code>
+      </pre>
+
+        <h4>Rendered element:</h4>
+        <a href="#" class="main_nav">About Me</a>
+        <a href="#" class="main_nav">My Works</a>
+        <a href="#" class="main_nav">Contact Me</a>
+      </section>
+
+      <section class="element">
+        <h3>Homepage Bio</h3>
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+        <code>
+          &lt;div class="square_pad"&gt;
+            &lt;div class="square_pad_text"&gt;
+              &lt;p&gt;My name is Yixuan Liu and you can just call me Eric. I am a
+              fourth-year student majoring in Interactive Arts & Technology at
+              SFU. I hope that my interest and passion for UX design will lead to
+              better designs that bring convenience and better experiences to
+              users in their daily lives. Therefore, user surveys and feedback, as
+              well as data analysis, are important to me because they provide
+              accurate direction for design, which I believe is the most important
+              step in user-centered design. I can apply my skills in Adobe
+              Photoshop, Illustrator, After Effects, Figma, and Final Cut to help
+              me to complete the design to the satisfaction of users.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+      </pre>
+
+        <h4>Rendered element:</h4>
+        <div class="square_pad_sg">
+          <div class="square_pad_text_sg">
+            <p>
+              My name is Yixuan Liu and you can just call me Eric. I am a
+              fourth-year student majoring in Interactive Arts & Technology at
+              SFU. I hope that my interest and passion for UX design will lead
+              to better designs that bring convenience and better experiences to
+              users in their daily lives. Therefore, user surveys and feedback,
+              as well as data analysis, are important to me because they provide
+              accurate direction for design, which I believe is the most
+              important step in user-centered design. I can apply my skills in
+              Adobe Photoshop, Illustrator, After Effects, Figma, and Final Cut
+              to help me to complete the design to the satisfaction of users.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3>My Skills / Job Interest section</h3>
+        <h4>Sample code:</h4>
+        <pre class="code_block">
+        <code>
+          &lt;div class="experience_pad" data-aos="flip-up" data-aos-duration="1200"&gt;
+
+            &lt;div class="int_positions"&gt;
+
+              &lt;h4>Positions I interested in:&lt;/h4&gt;
+
+              &lt;div class="software_list"&gt;
+                &lt;div class="job_title"&gt;
+                  &lt;p&gt;UX Designer&lt;/p&gt;
+                &lt;/div&gt;
+
+                &lt;div class="job_title"&gt;
+                  &lt;p&gt;UI Designer&lt;/p&gt;
+                &lt;/div&gt;
+
+                &lt;div class="job_title"&gt;
+                  &lt;p&gt;Product Consultant&lt;/p&gt;
+                &lt;/div&gt;
+
+                &lt;div class="job_title"&gt;
+                  &lt;p&gt;Media Manager&lt;/p&gt;
+                &lt;/div&gt;
+
+              &lt;/div&gt;
+
+            &lt;/div&gt;
+
+          &lt;/div&gt;
+        </code>
+      </pre>
+
+        <h4>Rendered element:</h4>
+
+        <div
+          class="experience_pad_sg"
+          data-aos="flip-up"
+          data-aos-duration="1200"
+        >
+          <div class="int_positions_sg">
+            <h4>Positions I interested in:</h4>
+
+            <div class="software_list_sg">
+              <div class="job_title_sg">
+                <p>UX Designer</p>
+              </div>
+              <div class="job_title_sg">
+                <p>UI Designer</p>
+              </div>
+              <div class="job_title_sg">
+                <p>Product Consultant</p>
+              </div>
+              <div class="job_title_sg">
+                <p>Media Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3>Font</h3>
+        <img src="img/font.jpg" alt="Font info image." />
+      </section>
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section id="process_analysis_1">
+      <h2>Process Analysis 1</h2>
+      <section class="element">
+        <h3>Kalmont Mountain Safety & Rescue Team</h3>
+        <img src="img/A1.jpg" class="sg_mw_img" alt="Project 1." />
+        <h4>Project Info:</h4>
+        <p>Website - Information Design (Summer 2020)</p>
+        <h4>Softwares/Skills used:</h4>
+        <p>HTML5 + CSS3 + Adobe Photoshop + Figma</p>
+        <h4>Project Description:</h4>
+        <p>
+          This is a project required to design an information website for a
+          fictional mountain safety and rescue team. As a non-profit
+          association, this website mainly accounts for popularizing the safety
+          guidelines and rescue knowledge about two topics: Avalanche and
+          Hypothermia, as well as introducing the team itself. For this type of
+          web design, the focus will be on getting the right key guidance
+          information to the user accurately and clearly, while maintaining the
+          aesthetics is second to none. We (the team project) created the mockup
+          in Figma for layout testing and then gradually created the framework.
+          Since it was a multi-person task, we paid a lot of attention to
+          consistency such as the layout, the color selected, and the image
+          style. Then, key information was populated. Finally, by adding
+          interaction patterns such as mouse clicks and dragging, a prototype of
+          a website that can be used for advertising purposes takes shape.
+        </p>
+        <h4>Reflection:</h4>
+        <p>
+          From my point of view, we were happy with what we had created, even
+          though we didn't have very good coding skills at the time, so we had
+          to use Figma. This website is the first website design I have ever
+          been involved in, and the early stages of my involvement in a teamwork
+          project. I hope to bring an effective, high-level contribution to the
+          team. Our team is also committed to making a professional and useful
+          website. The layout of each page has the same design language and
+          color scheme, all for the same purpose which is our theme. We
+          conducted formative usability testing at various stages of the design
+          process and received good results and feedback. Our information
+          section uses text and visual elements to collaborate with each other,
+          making it easier for users to read and thus providing a better reading
+          experience. Overall, our website design successfully communicates to
+          users what they want. In the process, I gained a lot of knowledge
+          about information design and the basic rules of web development.
+        </p>
+      </section>
+    </section>
+
+    <section id="process_analysis_2">
+      <h2>Process Analysis 2</h2>
+      <section class="element">
+        <h3>Soccer Customization for You</h3>
+        <img src="img/S1.jpg" class="sg_mw_img" alt="Project 2." />
+        <h4>Project Info:</h4>
+        <p>Website - Brand/Company Design (Fall 2022)</p>
+        <h4>Softwares/Skills used:</h4>
+        <p>HTML5 + CSS3 + JavaScript + Adobe Photoshop</p>
+        <h4>Project Description:</h4>
+        <p>
+          This is a project required to design a website for a fictional company
+          we established, “Soccer Customization for You”. This company provides
+          services such as selling the latest soccer cleats and unique cleats
+          customization. As a soccer shoe company that wants to compete among
+          other sports brand majors and resellers, the company not only needs to
+          offer a unique service, the company website design needs to balance
+          the aesthetics of the layout and complete functionality so as to give
+          the user the best experience. According to the feedback, the website
+          refers to the design of big sports brands, which is a simple
+          black-and-white color design style. And the homepage was chosen to
+          include images of custom soccer shoes, which were presented to users
+          using a scrolling format. In order to ensure convenience, the site was
+          kept to a minimum, from the homepage, getting to know us, browsing the
+          products and learning more about them, to the final step of creating
+          an order. Starting with the framework, I have addressed the necessary
+          elements of the page layout. Then advanced features are added, such as
+          images that can be scrolled and product detail images that can be
+          enlarged when clicked. And the site is filled with real content,
+          enough for business use.
+        </p>
+        <h4>Reflection:</h4>
+        <p>
+          From my point of view, I am satisfied with my design. The testing of
+          usability was passable because all the features needed for a soccer
+          shoe company's website were implemented, such as a complete product
+          list, an informative product detail page, a minimalistic shopping cart
+          and a payment interface. In terms of design aesthetics, consistency
+          was well implemented, with a minimalist black-and-white style,
+          interspersed with appropriate and distinctive images, and a logical
+          reading layout that worked well with each other to compose the site.
+          The area that deserves improvement would be the mobile version, the
+          part that is the responsibility of the partner to whom I did not
+          contribute much to this project. The site does not adapt well to other
+          devices of different sizes. Overall, I think this project has been a
+          good exercise in user-centered design.
+        </p>
+      </section>
+    </section>
+
+    <section id="citations">
+      <h2>Citations</h2>
+      <section class="element">
+        <ul>
+          <li>
+            Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>.
+            Retrieved from
+            <a
+              href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans"
+              >https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a
+            >
+          </li>
+          <li>
+            Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved
+            from <a href="#">URL</a>.
+          </li>
+        </ul>
+      </section>
+    </section>
+  </body>
+</html>
