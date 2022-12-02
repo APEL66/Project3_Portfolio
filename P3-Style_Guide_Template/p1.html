@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eric Liu Portfolio</title>
+
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/p1.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c5fb1bed95.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <script src="JS/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <div class="top">
+      <nav class="top_nav_left">
+        <a href="index.html" class="main_nav">Eric Liu</a>
+      </nav>
+      <nav class="top_nav_right">
+        <a href="index.html#about_me" class="main_nav">About Me</a>
+        <a href="index.html#recent_works" class="main_nav">My Works</a>
+        <a href="#contact" class="main_nav">Contact Me</a>
+      </nav>
+
+      <div class="phone_menu" onclick="myFunction(this);openNav()">
+        <!-- <i class="fa fa-bars" style="color:rgba(255,255,255,0.9);"></i> //-->
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="index.html#about_meI" class="main_nav">About Me</a>
+          <a href="index.html#project_analysis" class="main_nav">My Works</a>
+          <a href="index.html#contact" class="main_nav">Contact Me</a>
+        </div>
+      </div>
+
+      <script src="JS/menu.js"></script>
+    </div>
+
+    <!-- Project Analysis SECTION // -->
+    <section id="project_analysis">
+      <section class="element">
+        <div class="pj_h2" data-aos="zoom-in">
+          <h2>Kalmont Mountain Safety & Rescue Team</h2>
+        </div>
+        <div class="pj_analysis">
+          <div class="pj_analysis_img">
+            <div class="pj_img_div">
+              <img
+                class="pj_img_div1"
+                src="img/A1.jpg"
+                alt="Project 01 Image 1."
+              />
+            </div>
+            <div class="pj_img_div">
+              <img
+                class="pj_img_div2"
+                src="img/A2.jpg"
+                alt="Project 01 Image 2."
+              />
+            </div>
+          </div>
+
+          <div class="pj_analysis_text">
+            <span>Project Info</span>
+            <p>Website - Information Design (Summer 2020)</p>
+
+            <span>Softwares/Skills used: </span>
+            <p>HTML5 + CSS3 + Adobe Photoshop + Figma</p>
+
+            <span>Project Description</span>
+            <p>
+              This is a project required to design an information website for a
+              fictional mountain safety and rescue team. As a non-profit
+              association, this website mainly accounts for popularizing the
+              safety guidelines and rescue knowledge about two topics: Avalanche
+              and Hypothermia, as well as introducing the team itself. For this
+              type of web design, the focus will be on getting the right key
+              guidance information to the user accurately and clearly, while
+              maintaining the aesthetics is second to none. We (the team
+              project) created the mockup in Figma for layout testing and then
+              gradually created the framework. Since it was a multi-person task,
+              we paid a lot of attention to consistency such as the layout, the
+              color selected, and the image style. Then, key information was
+              populated. Finally, by adding interaction patterns such as mouse
+              clicks and dragging, a prototype of a website that can be used for
+              advertising purposes takes shape.
+            </p>
+
+            <span>Reflection</span>
+            <p>
+              From my point of view, we were happy with what we had created,
+              even though we didn't have very good coding skills at the time, so
+              we had to use Figma. This website is the first website design I
+              have ever been involved in, and the early stages of my involvement
+              in a teamwork project. I hope to bring an effective, high-level
+              contribution to the team. Our team is also committed to making a
+              professional and useful website. The layout of each page has the
+              same design language and color scheme, all for the same purpose
+              which is our theme. We conducted formative usability testing at
+              various stages of the design process and received good results and
+              feedback. Our information section uses text and visual elements to
+              collaborate with each other, making it easier for users to read
+              and thus providing a better reading experience. Overall, our
+              website design successfully communicates to users what they want.
+              In the process, I gained a lot of knowledge about information
+              design and the basic rules of web development.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="contact">
+      <section class="element">
+        <div class="footer" data-aos="zoom-in" data-aos-duration="1300">
+          <div class="footer_h1">
+            <h1>Want to Know More about Me?</h1>
+          </div>
+
+          <div class="my_info">
+            <div class="contact_place">
+              <i class="fa-solid fa-phone" style="color: white"></i>
+              <h4>+1 604-729-5207</h4>
+            </div>
+            <div class="contact_place">
+              <i class="fa-solid fa-envelope" style="color: white"></i>
+              <h4>lyxroanldo@gmail.com</h4>
+            </div>
+            <div class="contact_place">
+              <i class="fa-brands fa-instagram" style="color: white"></i>
+              <i class="fa-brands fa-facebook-f" style="color: white"></i>
+              <i class="fa-brands fa-twitter" style="color: white"></i>
+              <i class="fa-brands fa-tiktok" style="color: white"></i>
+              <i class="fa-brands fa-youtube" style="color: white"></i>
+              <h4>lyx.ronaldo</h4>
+            </div>
+            <div class="contact_place">
+              <i class="fa-solid fa-location-dot" style="color: white"></i>
+              <h4>8888 University Drive, Burnaby, BC, Canada</h4>
+            </div>
+          </div>
+
+          <div class="my_info2">
+            <div class="my_info_row1">
+              <div class="contact_place">
+                <i class="fa-solid fa-phone" style="color: white"></i>
+                <h4>+1 604-729-5207</h4>
+              </div>
+              <div class="contact_place">
+                <i class="fa-solid fa-envelope" style="color: white"></i>
+                <h4>lyxroanldo@gmail.com</h4>
+              </div>
+            </div>
+
+            <div class="my_info_row2">
+              <div class="contact_place">
+                <i class="fa-solid fa-share-nodes" style="color: white"></i>
+                <h4>lyx.ronaldo</h4>
+              </div>
+
+              <div class="contact_place">
+                <i class="fa-solid fa-location-dot" style="color: white"></i>
+                <h4>8888 University Drive, Burnaby, BC, Canada</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="my_info3">
+            <div class="contact_place">
+              <i class="fa-solid fa-phone" style="color: white"></i>
+              <h4>+1 604-729-5207</h4>
+            </div>
+            <div class="contact_place">
+              <i class="fa-solid fa-envelope" style="color: white"></i>
+              <h4>lyxroanldo@gmail.com</h4>
+            </div>
+            <div class="contact_place">
+              <i class="fa-solid fa-share-nodes" style="color: white"></i>
+              <h4>lyx.ronaldo</h4>
+            </div>
+            <div class="contact_place">
+              <i class="fa-solid fa-location-dot" style="color: white"></i>
+              <h4>8888 University Drive, Burnaby, BC, Canada</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="copyright">
+        <p>
+          ©2022. All Rights Reserved | Click for
+          <a href="https://github.com/APEL66/Project3_Portfolio"
+            >Git Repository</a
+          >
+          and <a href="styleguide.html">Style Guide</a> pages.
+        </p>
+      </div>
+    </section>
+    <script src="JS/eventscript.js"></script>
+  </body>
+</html>
