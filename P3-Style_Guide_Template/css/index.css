@@ -435,6 +435,11 @@
   .contact_place h4 {
     font-size: 12px;
   }
+
+  .slideshow-container {
+    width: 90%;
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 760px) {
@@ -476,6 +481,10 @@
 
   #project_analysis h2 {
     font-size: 2.7rem;
+  }
+
+  .slideshow-container {
+    width: 100%;
   }
 }
 
@@ -612,20 +621,33 @@
     width: 90%;
     margin-left: 5%;
     margin-top: 1rem;
+    padding:0;
+    /* border:solid red 1px; */
   }
 
   .info_pads2 > .software_pad {
     margin-top: 1rem;
   }
 
+  .softwares{
+    padding: auto;
+  }
+
   .softwares > .software_list {
     width: 90%;
-    margin-left: 10%;
+    margin: 1%;
+    /* border:solid red 1px; */
+  }
+
+  .int_positions{
+    padding:auto;
   }
 
   .int_positions > .software_list {
-    width: 72%;
-    margin-left: 14%;
+    width: 100%;
+    margin-left: 5%;
+    padding:0;
+    
   }
 }
 
