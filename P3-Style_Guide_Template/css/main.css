@@ -404,12 +404,8 @@ label {
 
   .experience_pad_sg {
     width: 40%;
-    margin-left: 8%;
     margin-top: -1.5rem;
-    border: 2px solid pink;
   }
-
-
 }
 
 @media only screen and (max-width:760px){

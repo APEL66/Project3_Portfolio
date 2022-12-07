@@ -135,6 +135,58 @@
   -webkit-text-fill-color: #499bdf;
 }
 
+.social-media{
+  display:flex;
+  flex-direction: column;
+  gap:1.5rem;
+  /* transform:rotate(90deg); */
+  position:fixed;
+  bottom:6rem;
+  left:0.5rem;
+}
+
+.social-media a{
+  color:white;
+  transition: all 0.5s;
+}
+
+.social-media a:hover, .social-media a:focus{
+  color:#499bdf;
+  transform:translateY(-3px);
+}
+
+.social-media:after{
+  content:"";
+  background-color:#499bdf;
+  position:absolute;
+  left:-2.5rem;
+  bottom:-4rem;
+  width:100px;
+  height:2px;
+  transform:rotate(90deg);
+}
+
+.my-email{
+  position:fixed;
+  bottom:12rem;
+  right:-5rem;
+  transform: rotate(90deg);
+}
+
+.my-email:after{
+  content:"";
+  background-color:#499bdf;
+  position:absolute;
+  left:13rem;
+  top:0.5rem;
+  width:100px;
+  height:2px;
+}
+
+.my-email a{
+  color:white;
+}
+
 /* Responsive Designs */
 @media only screen and (max-width: 1255px) {
   #project_analysis h2 {
@@ -146,6 +198,10 @@
   .my_info {
     margin-left: 3%;
     margin-right: 3%;
+  }
+
+  .social-media, .my-email{
+    display:none;
   }
 }
 
@@ -282,23 +338,6 @@
     align-self: center;
     padding: 1rem;
   }
-
-  /* 原菜单变化 暂时屏蔽 */
-  /*
-    .change .bar1 {
-      -webkit-transform: rotate(-45deg) translate(-5px, 4px);
-      transform: rotate(-45deg) translate(-5px, 4px);
-    }
-  
-    .change .bar2 {
-      opacity: 0;
-    }
-  
-    .change .bar3 {
-      -webkit-transform: rotate(45deg) translate(-5px, -5px);
-      transform: rotate(45deg) translate(-5px, -5px);
-    }
-  */
 
   .fa_icons {
     width: 60%;
