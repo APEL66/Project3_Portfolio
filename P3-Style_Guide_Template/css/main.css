@@ -19,9 +19,10 @@ section {
 
 .element {
   padding-bottom: 2rem;
-  border-top-width: 0.15rem;
-  border-top-style: dotted;
-  border-top-color: #fff500;
+  /* border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: #499bdf; */
+  margin-bottom: 8rem;
 }
 
 a {
@@ -40,7 +41,7 @@ h1 {
 h2 {
   margin-top: 5rem;
   font-size: 2rem;
-  color: #fff500;
+  color: #499bdf;
 }
 
 h3 {
@@ -184,7 +185,7 @@ label {
 }
 
 .top-nav {
-  color: #fff500;
+  color: #ffffff;
   background-color: transparent;
   padding: 0.8rem;
   text-decoration: none;
@@ -193,7 +194,7 @@ label {
   border-radius: 2em;
   align-items: stretch;
 
-  border: dashed 2px #fff500;
+  /* border: dashed 2px #fff500; */
 }
 
 .top-nav:hover {
@@ -266,7 +267,7 @@ label {
   }
 
   50% {
-    transform: scale(1.1);
+    transform: scale(1.02);
   }
 }
 
@@ -276,16 +277,30 @@ label {
 }
 
 .experience_pad_sg {
-  width: 35%;
-  margin-top: 1rem;
-  border: 2px solid #499bdf;
+  width: 30%;
+  margin-left: 10%;
+  border: 2px solid #fff500;
+}
+
+.experience_pad_sg h4{
+  /* margin-top: 0; */
+  margin-top: 2rem;
+  text-align: center;
+  color: #499bdf;
 }
 
 .job_title_sg img {
   max-width: 32px;
 }
 
+.job_title i {
+  color:white;
+  width:10%;
+  margin-right: 5px;
+}
+
 .int_positions_sg {
+  display:flex;
   padding: 2rem;
 }
 
@@ -293,7 +308,20 @@ label {
   margin-top: 0;
   margin-bottom: 2rem;
   text-align: center;
-  color: #fff500;
+  color: #499bdf;
+}
+
+.software_list {
+  width: 45%;
+  margin-left: 5%;
+}
+
+.software_list p {
+  text-align: left;
+}
+
+#process_analysis_1 h4, #process_analysis_2 h4{
+  color:#499bdf;
 }
 
 /* Contact Me Section */
